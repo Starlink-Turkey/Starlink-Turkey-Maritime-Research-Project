@@ -1,0 +1,6 @@
+plan,monthly_fee_usd,priority_gb,unlimited,eligible_notes,extra_terminals_fee_usd
+GP_50,250,50,false,All maritime,150
+GP_500,650,500,false,All maritime,150
+GP_1TB,1150,1024,false,All maritime,150
+GP_2TB,2150,2048,false,All maritime,150
+IMO_UNL,2500,,true,IMO cargo/tanker only; 12m term; up to 2 kits,0

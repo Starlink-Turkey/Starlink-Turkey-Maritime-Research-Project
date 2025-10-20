@@ -1,0 +1,9 @@
+Type,Ships_Low,Ships_High,Plan,Cap_TB,Usage_TB_per_ship,Subs_per_ship,Fee_USD,MRR_Low_USD,MRR_High_USD
+Container,48,131,IMO_UNL,unlimited,1.5,1,2500,120000.0,327500.0
+Bulk_Carrier,36,114,GP_1TB,1.0,0.3,1,1150,41400.0,131100.0
+Tanker_Total,132,358,IMO_UNL,unlimited,1.0,1,2500,330000.0,895000.0
+RoRo_Vehicle,2,6,GP_1TB,1.0,0.3,1,1150,2300.0,6900.0
+Passenger_Cruise,231,468,GP_2TB,2.0,15.0,8,2150,3973200.0,8049600.0
+General_Cargo,21,86,GP_500,0.5,0.08,1,650,13650.0,55900.0
+Livestock,0,2,GP_500,0.5,0.15,1,650,0.0,1300.0
+Reefer,0,0,GP_500,0.5,0.3,1,650,0.0,0.0
