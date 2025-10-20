@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-"""
-Demand Estimation Validation Tests
-Tests for estDemand.py - currently has NO validation!
-"""
 import sys
 import tempfile
 import shutil

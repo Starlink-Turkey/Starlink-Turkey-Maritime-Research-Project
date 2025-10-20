@@ -1,4 +1,3 @@
-#!/bin/bash
 # Run all validation tests for the Starlink Turkey Maritime Research Project
 
 set -e  # Exit on first error

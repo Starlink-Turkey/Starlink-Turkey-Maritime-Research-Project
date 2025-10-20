@@ -1,7 +1,5 @@
-#!/usr/bin/env python3
 """
-End-to-End Integration Test
-Tests the full pipeline: estShips → estDemand → estimateRevenue
+Tests the pipeline: estShips → estDemand → estimateRevenue
 """
 import sys
 import subprocess

@@ -2,9 +2,7 @@
 
 This folder contains all validation and testing scripts for the Starlink Turkey Maritime Research Project.
 
-## Contents
 ### Test Scripts
-
 | File | Tests | Purpose |
 |------|-------|---------|
 | `verifyShips.py` | 5 | Validates unique ship estimation methodology |
@@ -166,7 +164,6 @@ For detailed information:
 - **Assumptions:** `../Assumptions.md`
 - **Project overview:** `../README.md`
 
-## 🎯 Best Practices
 
 1. **Run before committing:** `./run_all_tests.sh`
 2. **Keep tests in sync:** Update tests when changing model assumptions
@@ -174,7 +171,4 @@ For detailed information:
 4. **Use descriptive names:** Test names should clearly indicate what's being validated
 5. **Check reports:** Review generated reports in this folder after test runs
 
----
-
-**Questions?** See `../TEST_QUICKSTART.md` or open an issue.
 
