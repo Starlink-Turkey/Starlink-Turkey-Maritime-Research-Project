@@ -1,4 +1,3 @@
-````markdown
 # ASSUMPTIONS
 
 This file lists every working assumption used in the Starlink-Turkey Maritime Research Project. Edit in place as the project evolves. Each section states what we assume, why, where it is used, and the knobs you can tune.
@@ -51,7 +50,6 @@ _Last updated: <set date>_
       "Livestock": (0.00, 0.02),
       "Reefer": (0.00, 0.03),
   }
-````
 
 * **Interpretation:** fraction of unique ships in a type that are LEO-capable or willing to adopt soon.
 
