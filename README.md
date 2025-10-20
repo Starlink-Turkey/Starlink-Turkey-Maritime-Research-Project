@@ -194,7 +194,3 @@ Apache-2.0. See `LICENSE`.
 ## Contact
 
 Open an issue for bugs or feature requests. PRs welcome.
-
-```
-::contentReference[oaicite:0]{index=0}
-```
