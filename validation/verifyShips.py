@@ -3,11 +3,11 @@ from pathlib import Path
 import pandas as pd
 import math
 
-# ====================
-# CONFIG: EDIT THESE
-# ====================
-TOTALS_CSV = Path("istanbul_strait_transits.csv")            # input totals-only CSV
-ESTIMATES_CSV = Path("istanbul_unique_estimates.csv")        # estimates CSV with ranges
+
+# Get repo root (parent of validation folder)
+REPO_ROOT = Path(__file__).resolve().parent.parent
+TOTALS_CSV = REPO_ROOT / "uniqueShipEstimator" / "istanbul_strait_transits.csv"
+ESTIMATES_CSV = REPO_ROOT / "uniqueShipEstimator" / "istanbul_unique_estimates.csv"
 
 ANCHOR_YEAR = 2021
 ANCHOR_UNIQUE = 6071            # known unique vessels in the anchor year

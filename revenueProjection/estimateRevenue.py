@@ -3,9 +3,13 @@ import pandas as pd
 from pathlib import Path
 import math
 
-INPUT_DEMAND = Path("../starlinkAdoption/demandEstimate.csv")
-OUT_CSV = Path("revenueCapacity.csv")
-OUT_TXT = Path("revenueCapacity.txt")
+# Get the repo root (parent of the script's directory)
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parent
+
+INPUT_DEMAND = REPO_ROOT / "starlinkAdoption" / "demandEstimate.csv"
+OUT_CSV = SCRIPT_DIR / "revenueCapacity.csv"
+OUT_TXT = SCRIPT_DIR / "revenueCapacity.txt"
 
 TYPES = [
     "Container","Bulk_Carrier","Tanker_Total","RoRo_Vehicle",

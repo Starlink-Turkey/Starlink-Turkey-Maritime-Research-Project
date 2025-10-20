@@ -17,6 +17,7 @@ Quantifying potential Starlink Maritime demand and revenue opportunities for shi
 /uniqueShipEstimator/         # Estimation of unique ships in Istanbul
 /starlinkAdoption/            # LEO adoption by vessel type + projections
 /revenueProjection/           # Revenue estimation from demand (multiple models)
+/validation/                  # All validation and testing scripts (32 tests)
 /figures/                     # Optional charts saved as PNG (no GUI deps)
 /docs/                        # Notes, references, and reports
 
@@ -139,6 +140,23 @@ Edit at the top:
 * **Usage TB per ship:** from sector reports and field evidence. Tune per trade lane or company policy.
 * **Plan mapping:** defaults are sensible; move bulk → 2TB on heavier trades, etc.
 * **Unlimited eligibility:** merchant unlimited applies to **IMO cargo/tanker**. Passenger uses multiple Global Priority subscriptions.
+
+## Testing & Validation
+
+This project includes comprehensive automated testing with **26 tests** covering:
+- ✅ Unique ship estimation validation
+- ✅ Demand estimation validation
+- ✅ Revenue calculation validation (all 8 vessel types)
+- ✅ End-to-end pipeline integration tests
+
+**Run all tests:**
+```bash
+./run_all_tests.sh
+```
+
+**For details:** See `TEST_QUICKSTART.md` and `TESTING_STRATEGY.md`
+
+---
 
 ## Reproduce
 

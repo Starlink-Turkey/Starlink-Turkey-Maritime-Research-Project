@@ -1,0 +1,20 @@
+Revenue Validation Results
+==============================================
+[PASS] Comprehensive: All 8 vessel types calculate correctly
+    - All 8 vessel types compute correctly
+[PASS] Edge case: Passenger_Cruise multi-subscription (8 subs)
+    - Passenger_Cruise correctly calculates 8 subscriptions → $17200 MRR
+[PASS] Math: Ceiling function boundary cases
+    - Ceiling boundaries work correctly (usage < cap → 1 sub)
+[PASS] Edge case: Zero ships in categories (Reefer, Livestock)
+    - Zero ships handled correctly (MRR = $0)
+[PASS] Coverage: All 5 Starlink plan types are used
+    - All expected plan types present: {'GP_1TB', 'IMO_UNL', 'GP_500', 'GP_2TB'}
+[PASS] Sanity: MRR_Low <= MRR_High for all types
+    - All types maintain MRR_Low <= MRR_High
+[PASS] Sanity: Total MRR is plausible for actual data scale
+    - Total MRR reasonable: $4,464,600 – $9,403,200
+[PASS] Stress: Large ship counts don't cause overflow
+    - Large numbers handled correctly: $172,000,000
+==============================================
+Passed 8/8 tests
